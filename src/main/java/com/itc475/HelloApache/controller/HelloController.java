@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
 	
 	@GetMapping("/hello")
-	public String hello_A() {
+	public String hello_A_and_B2() {
 		return "hello-form";
 		
 	}
